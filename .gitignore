@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+
+# IDEs
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive / large / runtime files
+indices/
+*.faiss
+*.pkl
+*.db
+*.sqlite
+models/
+outputs/
+
+bigdata_rag1/
+bigdata_rag2/
+data
+
+Amazon-Products.csv
+config.bat
+node_modules
